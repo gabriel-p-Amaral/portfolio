@@ -1,0 +1,1 @@
+let ano = new Date().getFullYear()

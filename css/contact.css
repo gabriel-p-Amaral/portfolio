@@ -1,0 +1,40 @@
+.contact {
+    margin-bottom: 2em;
+}
+
+.contact > form > h2 {
+    color: blueviolet;
+    text-align: center;
+    font-weight: 500;
+}
+
+.contact > form {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 1em;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.contact > form > input,
+.contact > form > textarea {
+    border: none;
+    padding: 0.3em 1em;
+    margin: 0.5em 0.5em;
+    background: rgb(245, 245, 245);
+}
+
+.btn-sendContact {
+    background: blueviolet;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3em;
+    transition: 0.1s ease;
+}
+
+.btn-sendContact:hover {
+    font-weight: bold;
+}

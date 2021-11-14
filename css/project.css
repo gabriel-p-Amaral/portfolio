@@ -1,0 +1,10 @@
+.projects {
+    display: flex;
+    color: blueviolet;
+    flex-direction: column;
+    margin: 0 5vw;
+}
+
+.projects > ul > li > a {
+    color: #FFF;
+}

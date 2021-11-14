@@ -1,0 +1,16 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5vw;
+}
+
+.about > .about-text > h2 {
+    color: blueviolet;
+}
+
+.about-text > p {
+    width: 60%;
+    color: #FFF;
+    font-weight: 200;
+    text-align: justify;
+}

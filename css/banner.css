@@ -1,0 +1,45 @@
+.banner {
+    text-align: center;
+    display: flex;
+    -webkit-text-stroke: 0.5px blueviolet;
+    font-size: 3rem;
+    color: transparent;
+    justify-content: center;
+    width: 50%;
+    height: 40vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.banner > h1 {
+    padding: 0.5em 0;
+}
+
+.banner > .underline {
+    width: 50%;
+    height: 2px;
+    background: blueviolet;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.links > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.links > ul > li {
+    margin: 0em 0.5em;
+}
+
+.links a {
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke: 0.5px blueviolet;
+}
+
+.links a:hover {
+    color: #FFF;   
+}
